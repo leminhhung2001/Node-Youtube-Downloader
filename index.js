@@ -4,7 +4,7 @@ const ytmux = require("./utils/muxer");
 const logger = require("./utils/loggers");
 const nonAccentVietnamese = require("./utils/convertTitle");
 const app = express();
-const port = process.env.PORT || 3000;
+const port = 3000;
 
 app.use("/public", express.static("./public"));
 
